@@ -1,0 +1,66 @@
+/* This is the styling external CSS styling sheet for BaseNCalc
+It also makes uses of classes imported from bootstrap.
+A color pallate was created using the background photo of the site.
+Filename: style.css
+Author: Jimmie Tolliver
+Date: 12/10/2019
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+  background-image: url(../images/1581692.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2F3847;
+  color: #F2DCC9;
+  font-family: "Roboto+Condensed", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+table {
+  margin-top: 2em;
+  width: 100%;
+  background-color: rgba(37, 51, 64, .75);
+}
+
+td {
+  border: 1px solid #F2DCC9;
+}
+
+label {
+  background-color: rgba(37, 51, 64, .75);
+  vertical-align: top;
+}
+
+.dropdown-menu {
+  background-color: rgba(37, 51, 64, .75);
+}
+
+.dropdown-item {
+  color: #C8CCD0;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.jumbotron {
+  background: rgb(47, 56, 71, 0);
+}
+
+.btn {
+  background-color: #594D4D;
+  border: 1px solid #594D4D;
+}
+
+.bg-dark {
+  opacity: 75%;
+}
+
+.nav-right {
+  float: right;
+}
